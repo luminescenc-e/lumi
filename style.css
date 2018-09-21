@@ -4,20 +4,6 @@
 
 @font-face {
     font-family: Geometria;
-    font-weight: 300;
-    font-style: normal;
-    src: url(fonts/Geometria-Light.ttf) format('opentype')
-}
-
-@font-face {
-    font-family: Geometria;
-    font-weight: 500;
-    font-style: italic;
-    src: url(fonts/Geometria-MediumItalic.otf) format('opentype')
-}
-
-@font-face {
-    font-family: Geometria;
     font-weight: 400;
     font-style: normal;
     src: url(fonts/Geometria.otf) format('opentype')
@@ -31,17 +17,10 @@
 }
 
 @font-face {
-    font-family: Geometria;
-    font-weight: 100;
-    font-style: italic;
-    src: url(fonts/Geometria-ThinItalic.otf) format('opentype')
-}
-
-@font-face {
-    font-family: Geometria;
-    font-weight: 500;
+    font-family: Gilroy;
+    font-weight: 300;
     font-style: normal;
-    src: url(fonts/Geometria-Medium.otf) format('opentype')
+    src: url(fonts/Gilroy-Light.otf) format('opentype')
 }
 
 html {
@@ -56,15 +35,122 @@ body {
 }
 
 .area {
-    margin: 150px auto 0;
+    margin: 13% auto 0;
+    width: 658px;
+}
+
+.menuarea {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-width: 600px;
+    height: 50px;
+}
+
+.iconarea {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    left: 44%;
+    width: 400px;
+    height: 60px;
+}
+
+.lengicon {
+    display: inline-block;
+    height: 20px;
+    margin: 0 3%;
+}
+
+.leng {
+    display: inline-block;
+    margin: 0 0 0 5%;
+}
+
+.center {
+    display: inline-block;
+    margin: 0 0 0 20%;
+}
+
+.menu {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    user-select: none;
+    padding: 5px 5px;
+    outline: none;
+    border-radius: 2px;
+}
+
+.menu1 {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    user-select: none;
+    padding: 5px 5px;
+    outline: none;
+    border-radius: 2px;
+}
+
+.contacts {
+    display: inline-block;
+    margin: 0 7px;
+    background-color: #363B5D;
+    color: #fff;
+    height: 40px;
+    font-size: 15px;
+    text-decoration: none;
+    user-select: none;
+    padding: 5px 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.dopomoga {
+    display: inline-block;
+    margin: 0 2px;
+    background-image: linear-gradient(100deg, #E63454, #9D5F9B);
+    color: #fff;
+    font-size: 15px;
+    height: 40px;
+    width: 250px;
+    text-decoration: none;
+    user-select: none;
+    padding: 4px 4px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.reg {
+    display: inline-block;
+    margin: 0 0 0 7%;
+    color: #7F93B4;
+    height: 3%;
+    font-size: 15px;
+    text-decoration: none;
+    user-select: none;
+    padding: 5px 5px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.heart {
+    display: inline-block;
+    margin: 1% 0 0 1%;
+}
+
+.shape {
+    display: inline-block;
+    height: 20px;
+    margin: 0 0 0 13%;
 }
 
 h1,
 h2 {
     text-align: center;
-    font-size: 64px;
+    font-size: 65px;
     color: #ffffff;
     font-weight: 400;
     line-height: 85px;
@@ -82,7 +168,7 @@ h2 {
 }
 
 .bot {
-    margin: 10%;
+    margin: 15% 0 4% 0;
     color: #ffffff;
     font-family: Gilroy;
     font-size: 18px;
@@ -97,11 +183,11 @@ h2 {
 }
 
 p {
+    padding-top: 5px;
     font-family: 'Geometria', sans-serif;
-    font-size: 1em;
-    color: #474747;
-    text-align: left;
-    padding: 20px 0;
+    font-size: 5px;
+    color: #fff;
+    text-align: center;
 }
 
 h2~p {
@@ -115,20 +201,30 @@ h2~p {
     transition: 0.5s ease;
 }
 
+form {
+    margin: auto;
+}
 
-/* h2~p:hover {
-    font-weight: 900;
-    color: #FFF;
-    background: #559fb4;
-    cursor: pointer;
-} */
+form button {
+    width: 33%;
+    background: #354A74;
+    color: #fff;
+    border: 0;
+    width: 32%;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+}
 
 .input {
     padding: 0 10px;
+    margin-right: 3px;
+    width: 32%;
     height: 40px;
+    border-radius: 5px;
     line-height: 40px;
     border: 0;
-    background: rgba(255, 255, 255, 0.212);
+    background: #3E4F78;
     color: #fff;
 }
 
